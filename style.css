@@ -14,13 +14,16 @@ font-family: "inter",sans-serif;
 
 body{
 background-color: var(var(--black));
-border: 1px solid red;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 
 height:100vh ;
 }
 
-div{
+div {
     background-color: var(--dack-grey);
-    color:var(--write)
-    width: 384px
+    color: var(--write);
+    width: 384px;
 }
